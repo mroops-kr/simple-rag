@@ -5,7 +5,7 @@
 ### Overview
 * A simple RAG is built using Python.
 * The final answer is obtained through file categorization and communication with LLM in a Java-based WAS.
-* The purpose of this system is to extract and provide text based on similarity inspection from the uploaded * file contents.
+* The purpose of this system is to extract and provide text based on similarity inspection from the uploaded file contents.
 
 ### Configuration
 * Implemented using MySQL - connection settings need to be changed (.env file).
