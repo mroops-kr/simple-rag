@@ -15,8 +15,10 @@
 * Document summarization is performed simultaneously with file upload; if summarization is not desired, set rag_process_summary='N' in the .env file.
 * For summarization, the OPENAI_API_KEY needs to be set in the .env file.
 
+``` C
 /api/v1/share/~~ : Shared file API
 /api/v1/user/~~ : Personal file API
+```
 
 * Author: mroops@naver.com
 
@@ -36,9 +38,9 @@
 * 파일 업로드와 동시에 문서 요약 진행, 요약 진행을 원하지 않으면 rag_process_summary='N' 로 설정 필요 (.env 파일)
 * 요약 진행시 OPENAI_API_KEY 설정 필요 (.env 파일)
 
-'''
+``` C
 /api/v1/share/~~ : 공유 파일 api
 /api/v1/user/~~ : 개인 파일 api
-'''
+```
 
 * 작성자: mroops@naver.com
