@@ -26,12 +26,12 @@
 ## Korean
 
 ### 개요
-* Python 으로 만드는 간단한 RAG를 구축함.
+* Python 으로 만든 간단한 RAG를 구축함.
 * Java기반 WAS에서 파일에 대한 카테고리 구성 및 LLM과의 통신을 통해 최종 답을 받아옴.
 * 본 시스템은 업로드한 파일 내용 중 유사도 검사에 의한 텍스트를 추출하여 제공하는 것을 목적으로 함.
 
 ### 설정
-* MySql 을 사용하여 구현함 - 연결 설정 정보 변경 필요 (.env 파일)
+* MySql 을 사용함 - 연결 설정 정보 변경 필요 (.env 파일)
 * 필요 테이블은 tables_v1.sql 파일에 있으며 실행하여 만들어야 함
 * 임베딩 모델은 HuggingFaceEmbeddings의 'jhgan/ko-sbert-nli' 사용 - 한글 지원이 잘되는 모델
 * Vector DB 는 크로마 사용
