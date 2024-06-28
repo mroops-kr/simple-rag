@@ -54,15 +54,6 @@ def checkFinish(
 ):
     return cm_checkFinish(None, fileIds, finishAnyYn)
 
-
-# @app.get("/search")
-# async def search(
-#     question: str,
-#     n_results: int = 5,
-#     fileIds: Optional[List[str]] = Query(None),
-#     option: Optional[str] = None,
-# ):
-
 @router.post('/search', description="""
 [공유파일] 임베딩된 백터DB에서 question(질문)과 유사도 검사후 결과 리턴함
 
